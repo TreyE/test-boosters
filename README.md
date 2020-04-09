@@ -1,5 +1,7 @@
 # Test Boosters
 
+Note: This version is just an updated copy of the original with the new version number.
+
 [![Gem Version](https://badge.fury.io/rb/semaphore_test_boosters.svg)](https://badge.fury.io/rb/semaphore_test_boosters)
 [![Build Status](https://semaphoreci.com/api/v1/renderedtext/test-boosters/branches/master/badge.svg)](https://semaphoreci.com/renderedtext/test-boosters)
 

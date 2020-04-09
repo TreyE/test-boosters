@@ -4,14 +4,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "test_boosters/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "semaphore_test_boosters"
+  spec.name          = "treye-semaphore_test_boosters"
   spec.version       = TestBoosters::VERSION
   spec.authors       = ["Developers at Rendered Text"]
   spec.email         = ["devops@renderedtext.com"]
 
   spec.summary       = %q{Semaphore job parallelization.}
   spec.description   = %q{Gem for auto-parallelizing builds across Semaphore jobs.}
-  spec.homepage      = "https://github.com/renderedtext/test-boosters"
+  spec.homepage      = "https://github.com/treye/test-boosters"
   spec.license       = "MIT"
 
   spec.files = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
